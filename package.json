@@ -1,7 +1,7 @@
 {
   "name": "solid-js-test",
   "scripts": {
-    "dev": "solid-start dev",
+    "dev": "solid-start dev --port 3005",
     "build": "solid-start build",
     "start": "solid-start start"
   },
@@ -13,6 +13,7 @@
     "solid-js": "^1.6.0",
     "solid-start": "^0.2.0",
     "solid-start-node": "^0.2.0",
+    "solid-start-vercel": "^0.2.5",
     "typescript": "^4.8.4",
     "undici": "^5.11.0",
     "vite": "^3.1.8"
